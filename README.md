@@ -63,4 +63,8 @@ Abaixo, algumas imagens ilustram a aplicação:
 ### DIAGRAMA DE CLASSES:
 
 
+![image](https://user-images.githubusercontent.com/88283829/193481508-e46dd739-a4ee-4f2f-af34-41ec04201fa8.png)
+
+
+
 
