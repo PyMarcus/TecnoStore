@@ -30,6 +30,12 @@ Para executar o front-end (AINDA LIMITADO, DEVIDO AO CURTO PRAZO PARA ENTREGA):
 Abaixo, algumas imagens ilustram a aplicação:
 
 
+    versão do backend (CUPOM)
+    
+    
+    
+    versão com frontend
+
 
 ### DIAGRAMA DE CLASSES:
 
