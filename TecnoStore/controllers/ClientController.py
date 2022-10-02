@@ -2,7 +2,7 @@ from models.Market import Market
 from MarketStoreController import MarketStoreController
 
 
-class Client:
+class ClientController:
     """
     Classe Controladora do cliente
     Ele é capaz de adicionar ou
@@ -99,7 +99,7 @@ class Client:
 
 
 if __name__ == '__main__':
-    client = Client("Marcus", "111.111.111-11", "XX/XX", 10000.00, "marcus@email.com")
+    client = ClientController("Marcus", "111.111.111-11", "XX/XX", 10000.00, "marcus@email.com")
     print(client.cash)
     client.add_to_card("Notebook MarcaXX")
     client.add_to_card("Notebook MarcaY2Y")

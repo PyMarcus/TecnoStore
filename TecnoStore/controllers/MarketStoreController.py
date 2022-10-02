@@ -57,6 +57,10 @@ class MarketStoreController:
                 return product
         return {"desculpe-nos": "Produto indisponível"}
 
+    @classmethod
+    def content(cls):
+        return cls.__store
+
 
 if __name__ == '__main__':
     MarketStoreController.list()
