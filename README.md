@@ -40,22 +40,22 @@ Abaixo, algumas imagens ilustram a aplicação:
     
     Login:
     
-    ![login](https://user-images.githubusercontent.com/88283829/193481109-0247363a-7a43-4c23-a797-7eda6b52ceca.png)
+ ![login](https://user-images.githubusercontent.com/88283829/193481109-0247363a-7a43-4c23-a797-7eda6b52ceca.png)
 
     
     pagina da loja:
     
-    ![page](https://user-images.githubusercontent.com/88283829/193481117-2232ae03-b89e-4bc0-9f7b-685fd9a40fa7.png)
+ ![page](https://user-images.githubusercontent.com/88283829/193481117-2232ae03-b89e-4bc0-9f7b-685fd9a40fa7.png)
 
 
     carrinho de compra com produtos do estoque:
     
-    ![card](https://user-images.githubusercontent.com/88283829/193481123-3dc00740-c726-4de7-8bb1-7b4914c3a2de.png)
+![card](https://user-images.githubusercontent.com/88283829/193481123-3dc00740-c726-4de7-8bb1-7b4914c3a2de.png)
 
 
     cupom versão web:
     
-    ![cupomweb](https://user-images.githubusercontent.com/88283829/193481137-b85d6dad-62be-4195-8373-3339bba6fabd.png)
+  ![cupomweb](https://user-images.githubusercontent.com/88283829/193481137-b85d6dad-62be-4195-8373-3339bba6fabd.png)
 
     
 ### DIAGRAMA DE CLASSES:
