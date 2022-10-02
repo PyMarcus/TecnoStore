@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seu carrinho</title>
+</head>
+<body>
+    <nav>
+
+    </nav>
+    <main>
+        <div>
+            <h1>Seu carrinho</h1>
+            <p>
+                {{ add.name }} por R${{ add.price }} <img src="{{url_for('static', filename='img/note.jpg')}}"/>
+            </p>
+            <p>
+                Total: R$ {{ add.price }}
+            </p>
+            <button type="submit">Comprar</button>
+        </div>
+    </main>
+</body>
+</html>
