@@ -3,23 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro-Login</title>
+    <link href="{{url_for('static', filename='css/style.css')}}" type="text/css" rel="stylesheet"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
         <nav>
             <h1>TecnoStore</h1>
         </nav>
-        <main>
+        <main class="form">
             <form method="POST" action="http://127.0.0.1:5000">
-                <label>Nome</label>
+                <label>
+                    <div>Nome</div>
                 <input type="text" placeholder="Nome" name="name" required>
-                <label>E-mail</label>
-                <input type="text" placeholder="Nome" name="email" required>
-                <label>CPF</label>
-                <input type="text" placeholder="Nome" name="cpf" required>
-                <label>Nascimento</label>
-                <input type="text" placeholder="Nome" name="birth" required>
-                <label>Saldo</label>
-                <input type="text" placeholder="Nome" name="cash" required>
+                </label>
+
+                <label>
+                    <div>E-mail</div>
+                <input type="text" placeholder="email@email.com" name="email" required>
+                </label>
+
+                <label>
+                    <div>CPF</div>
+                    <input type="text" placeholder="000.000.000-00" name="cpf" required>
+                </label>
+
+                <label>
+                    <div>Nascimento</div>
+                <input type="text" placeholder="00/00/0000" name="birth" required></label>
+
+                <label>
+                    <div>Saldo</div>
+                <input type="text" placeholder="saldo" name="saldo" required></label>
+
                 <button type="submit">Cadastrar e logar</button>
             </form>
         </main>

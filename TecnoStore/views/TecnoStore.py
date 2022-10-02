@@ -20,12 +20,13 @@ class TecnoStore:
         de forma simples, sem banco de dados
         :return:
         """
+        print(request.form)
         if request.method == "POST":
             name = request.form["name"]
             email = request.form["email"]
             cpf = request.form["cpf"]
             birth = request.form["birth"]
-            cash = request.form["cash"]
+            cash = request.form["saldo"]
             client = Client(name=name,
                             email=email,
                             cpf=cpf,
@@ -37,6 +38,7 @@ class TecnoStore:
             credentials.append(cpf)
             credentials.append(birth)
             credentials.append(cash)
+
             return redirect(url_for("tecnostore", client=client))
         return render_template("index.html")
 
@@ -52,6 +54,7 @@ class TecnoStore:
     @staticmethod
     @app.route("/card/<client>/<product>")
     def card(client, product):
+        print(credentials)
         client = Client(name=credentials[0],
                         email=credentials[1],
                         cpf=credentials[2],
@@ -66,16 +69,19 @@ class TecnoStore:
                     client.add_to_card(item['name'])
                     print('adicionado')
                     content = item
+                    credentials.append(item)
                     break
             return render_template("card.html", add=content)
         else:
             client.buy()
             print("COMPRADO")
+            return render_template("cupom.html", add=content)
 
     @staticmethod
-    @app.route("/cupom")
+    @app.route("/cupom", methods=["GET", "POST"])
     def cupom():
-        pass
+        card = credentials[5]
+        return render_template("cupom.html", card=card)
 
     @classmethod
     def start(cls):
