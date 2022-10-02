@@ -1,5 +1,5 @@
 from controllers.MarketController import MarketController
-
+from controllers.MarketStoreController import MarketStoreController
 
 class Market:
     """
@@ -35,3 +35,6 @@ class Market:
         :return:
         """
         self.controller.show_items()
+
+    def content(self) -> list[dict]:
+        return MarketStoreController.content()
