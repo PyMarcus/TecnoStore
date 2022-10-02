@@ -33,7 +33,7 @@ Abaixo, algumas imagens ilustram a aplicação:
     versão do backend (CUPOM)
     
     
-    ![cupom](https://user-images.githubusercontent.com/88283829/193481103-1858e9d1-a577-4805-a10c-a6c60d5154a0.png)
+  ![cupom](https://user-images.githubusercontent.com/88283829/193481103-1858e9d1-a577-4805-a10c-a6c60d5154a0.png)
 
     
     versão com frontend
